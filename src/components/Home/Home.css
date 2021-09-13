@@ -1,0 +1,120 @@
+.master-head-container
+{
+    width: 100vw;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.master-head-text-container
+{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10vh;
+}
+.master-head-text-headers
+{
+    display: flex;
+    flex-direction:column;
+    width: fit-content;
+}
+
+.home-test-main-container
+{   
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #28C8AB;
+    border-top-right-radius: 90px;
+    border-top-left-radius: 90px;
+}
+.home-test-info
+{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-test-info-img-conatianer
+{
+    width: 40%;
+    height: 40%;
+}
+.home-test-info-img
+{
+    width: 100%;
+    height: 100%;
+}
+.home-test-info-text
+{
+    width: 30%;
+    height: 40%;
+    color: white;
+}
+
+.test-banner-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: white;
+    padding-top:100px;
+    border-top-right-radius: 90px;
+    border-top-left-radius: 90px;
+}
+
+.master-head-image-container
+{
+    width: 50%;
+    height: 100%;
+}
+.master-head-image
+{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width:768px)
+{
+    .test-banner-container
+    {
+        height:200vh;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+    .home-test-info-img-conatianer
+    {
+        width: 70%;
+        height: 70%;
+    }
+    .home-test-info-text
+    {
+        width: 80%;
+        margin-left: 35px;
+    }
+    .home-test-info
+    {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .master-head-image-container
+    {
+        width: 70%;
+        height: 80%;
+    }
+    .master-head-image
+    {
+        height:100%;
+    }
+    .home-test-main-container
+    {
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+}

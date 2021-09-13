@@ -1,0 +1,21 @@
+/* make the customizations */
+$theme-colors: (
+    "primary":#28C8AB,
+    "secondary":#ECE3FF,
+    "info":#FADCBB,
+    "warning":#96D1FE,
+    "success":#1A67DD,
+    "previous":#283B75,
+    "transparent":#424242
+);
+
+body
+{
+    font-family: 'Manrope', sans-serif;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';

@@ -1,0 +1,16 @@
+.question-icon-container
+{
+    width: 43px;
+    height: 43px;
+    border-top-left-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 1vw;
+}
+.question-icon-container:hover
+{
+    border: 1px solid #757575;
+    color: #757575;
+}

@@ -1,0 +1,31 @@
+.correctans-container
+{
+    width: 26px;
+    height: 26px;
+    background-color: #EAFAF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+.correctans-container-image
+{
+    width: 80%;
+    height: 80%;
+}
+
+#icon-correct
+{
+    border: 0.5px solid #28C8AB;
+    background-color: rgb(234, 250, 247);
+}
+
+#icon-incorrect
+{
+    border: 0.5px solid #F3364C;
+}
+
+#icon-nothing
+{
+    border: 0.5px solid #C2C2C2;
+}
