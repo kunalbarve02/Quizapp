@@ -74,7 +74,7 @@ function Test() {
         {
             if(answer!=="")
             {
-                axios.post('http://localhost:3001/insertAnswer',{
+                axios.post('https://quizapp-2.herokuapp.com/insertAnswer',{
                     option:answer,
                     id:currentQuestion._id
                 })
@@ -91,7 +91,7 @@ function Test() {
         setCurrentQuestionIndex( ( prevState )=>{ return prevState+1 } )
         if(answer!=="")
         {
-            axios.post('http://localhost:3001/insertAnswer',{
+            axios.post('https://quizapp-2.herokuapp.com/insertAnswer',{
                 option:answer,
                 id:currentQuestion._id
             })
@@ -138,7 +138,7 @@ function Test() {
         setCurrentQuestionIndex( params )
         if(answer!=="")
         {
-            axios.post('http://localhost:3001/insertAnswer',{
+            axios.post('https://quizapp-2.herokuapp.com/insertAnswer',{
                 option:answer,
                 id:currentQuestion._id
             })
